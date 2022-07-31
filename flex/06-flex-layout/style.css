@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -41,17 +43,19 @@ a {
   color: rgb(54, 54, 56);
 }
 
+button {
+  padding: 10px;
+}
+
 .header,
 .footer {
   display: flex;
-
+  padding: 8px;
 }
 
 .footer {
   background-color: rgb(211, 211, 211);
 }
-
-
 
 .right-links {
   margin-left: auto;
@@ -59,7 +63,10 @@ a {
 
 .content {
   display: flex;
-  justify-items: center;
-  align-items: center;
+  /* flex-direction: row; */
+  flex: 1;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
