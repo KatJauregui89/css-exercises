@@ -25,3 +25,41 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  /* margin-right: 25px; */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 56);
+}
+
+.header,
+.footer {
+  display: flex;
+
+}
+
+.footer {
+  background-color: rgb(211, 211, 211);
+}
+
+
+
+.right-links {
+  margin-left: auto;
+}
+
+.content {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
