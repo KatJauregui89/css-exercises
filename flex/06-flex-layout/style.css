@@ -63,10 +63,14 @@ button {
 
 .content {
   display: flex;
-  /* flex-direction: row; */
   flex: 1;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.input,
+.buttons {
+  align-self: center;
 }
